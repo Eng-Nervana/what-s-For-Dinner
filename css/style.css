@@ -1,0 +1,194 @@
+:root{
+    --main-color:oklch(70.5% .213 47.604);
+}
+body{
+  background-image: linear-gradient( to right,oklch(98.7% .022 95.277),oklch(96.242% 0.04125 95.13));
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  .icon1{
+  display: flex;
+  justify-content: center;
+  background-color:var(--main-color) ;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+}
+.nav-item i{
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+.nav-item i:hover{
+  color: var(--main-color);
+  
+}
+.item4{
+  border: solid 1px var(--main-color);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.item4 img{
+  width: 100%;
+}
+}
+#display-recipe{
+ 
+ #rating {
+  padding:5px 15px;
+ }
+ .size{
+  max-height: 700px;
+  padding: 30px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+ }
+ .text-size {
+  font-size: small;
+  padding: 2px 10px;
+ }
+ .bg-color-icon{
+  color: var(--main-color);
+  font-size: larger;
+  background-color: oklch(70.09% 0.20117 44.755 / 0.189);
+  padding: 10px;
+  border-radius: 5px;
+  transition: all .3s;
+  &:hover{
+    background-color: oklch(70.09% 0.20117 44.755 / 0.434);
+  }
+ }
+ #timeWarning{
+  background-color: oklch(97.1% .013 17.38);
+  border-radius: 10px;
+     
+  border-left: solid 4px  oklch(57.7% .245 27.325) ;
+
+ }
+ .fa-triangle-exclamation {
+  color: oklch(63.7% .237 25.331);
+ }
+ #recipeTabsContent {
+  height: 300px;
+  overflow-y: auto;
+  padding-right: 6px;
+  
+}
+
+
+#recipeTabs .nav-link {
+  color: oklch(55.1% .027 264.364);
+  border: none;
+  border-bottom: 2px  solid transparent;
+  padding-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+#recipeTabs .nav-link:hover {
+  color: oklch(39.668% 0.02025 262.657);
+  
+ 
+}
+#recipeTabs .nav-link.active {
+  color: var(--main-color) !important;
+  border-bottom: 2px  solid oklch(64.6% .222 41.116) !important;
+  background-color: transparent;
+
+  
+}
+
+
+
+
+
+.list-unstyled {
+  background-color:oklch(98.7% .022 95.277) ;
+  padding: 20px;
+  
+  
+}
+
+#ingredients .badge {
+  background-color:var(--main-color) ;
+  padding: 5px 8px;
+}
+
+
+
+#instructions .badge {
+  background-color:var(--main-color) ;
+  padding: 15px;
+}
+
+#nutrition .nutrition-card {
+  background-color: oklch(98.5% .002 247.839);
+  
+}
+
+#nutrition .fa-fire {
+  background-color:oklch(95.4% .038 75.164) ;
+  color:var(--main-color) ;
+  width: 40px;
+  height: 40px;
+  
+}
+
+#nutrition .fa-dumbbell {
+  background-color:oklch(93.2% .032 255.585) ;
+  color: oklch(54.6% .245 262.881);
+   width: 40px;
+  height: 40px;
+}
+
+#nutrition .fa-wheat-awn {
+  background-color:oklch(97.3% .071 103.193) ;
+  color: oklch(68.1% .162 75.834);
+   width: 40px;
+  height: 40px;
+}
+
+#nutrition .fa-droplet {
+  background-color: oklch(93.6% .032 17.717);
+  color: oklch(57.7% .245 27.325);
+   width: 40px;
+  height: 40px;
+}
+
+#nutrition .fa-seedling {
+  background-color:oklch(96.2% .044 156.743) ;
+  color:oklch(62.7% .194 149.214) ;
+   width: 40px;
+  height: 40px;
+}
+
+#nutrition .fa-cube {
+  background-color:oklch(94.8% .028 342.258) ;
+  color:oklch(59.2% .249 .584) ;
+   width: 40px;
+  height: 40px;
+}
+
+#tips .border-start {
+  background-color:oklch(98.7% .022 95.277) ;
+  
+  border-left-color:oklch(82.8% .189 84.429)  !important;
+}
+
+#tips .fa-circle-check {
+  color:var(--main-color) ;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #fff; ;
+  border: 1px solid var(--main-color);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+ 
+}
